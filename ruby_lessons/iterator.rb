@@ -3,7 +3,7 @@ def reverse_number(n)
    n = n.reverse
    n = n.to_i
 end
-puts reverse_number(100)
+puts reverse_number(-100)
 
 #tests
 test = reverse_number(546)
