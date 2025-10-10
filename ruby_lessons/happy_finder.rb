@@ -13,12 +13,9 @@ def happy?(number)
   second_half.each_char do |c|
     sum2 += c.to_i
   end
-
-  sum1 == sum2 ? true : false
-
+  sum1 == sum2
 end
-puts happy?(22211222)
- 
+
 #test
 test1 = happy?(1234)
 test2 = happy?(2341)
