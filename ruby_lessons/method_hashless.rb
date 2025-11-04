@@ -1,6 +1,11 @@
 def plainify(data)
-  data.each do |key, value|
+  result = []
+  data.each do |key, name|
+    name.each do |names|
+      result << { band: key, song: names }
+    end
   end
+  result
 end
 data = {
   'Queen' => [
