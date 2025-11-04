@@ -1,6 +1,5 @@
 def plainify(data)
   data.each do |key, value|
-    puts data(:band)
   end
 end
 data = {
@@ -23,8 +22,8 @@ data = {
 }
 puts plainify data
 # test
-#test1 = plainify(data)
-#puts "#test error #{test}" if test !=  [
+# test1 = plainify(data)
+# puts "#test error #{test}" if test !=  [
 #   { band: 'Queen', song: 'Bohemian Rhapsody' },
 #    { band: 'Queen', song: "Don't Stop Me Now" },
 #    { band: 'Metallica', song: 'Nothing Else Matters' },
