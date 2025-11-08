@@ -15,3 +15,12 @@ inventory = {
 }
 
 puts total_items inventory
+
+test_hash = {
+  'яблоки' => 20,
+  'бананы' => 20,
+  'апельсины' => 20
+}
+
+test1 = total_items(test_hash)
+puts "test1 error #{test1}" if test1 != 60
