@@ -1,5 +1,5 @@
-def expensive_products(products)
-  products.filter { |_key, value| value > 1000 }
+def expensive_products(product)
+  product.filter { |_key, value| value > 1000 }
 end
 
 products = {
@@ -9,7 +9,7 @@ products = {
   'монитор' => 15_000,
   'флешка' => 300
 }
-puts expensive_products products
+puts expensive_products product
 
 # Тест 1: Базовый случай
 result1 = expensive_products({
